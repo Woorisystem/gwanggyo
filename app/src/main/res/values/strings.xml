@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- App Information - 앱 정보 관련 String 값 -->
+    <string name="app_name">Smart\nParking</string>
+
+    <!-- Image Description - ImageView Warning 을 없애기 위한 Description -->
+    <string name="img_description_splash">Splash Image Description</string>
+    <string name="img_description_main">Main Image Description</string>
+
+    <!-- Edit Text Hint String - EditTextBox 의 Hint 부분의 Value -->
+    <string name="edit_txt_hint_user_name_main"><b>사용자명</b></string>
+    <string name="edit_txt_hint_user_password_main"><b>비밀번호</b></string>
+
+    <!-- Button Text String - Button 의 Text Value -->
+    <string name="button_txt_login_main">로그인</string>
+    <string name="button_txt_sensortest_start">센서테스트 시작하기</string>
+
+    <!-- Check Box Text String -->
+    <string name="check_txt_remember_main"><b>내 계정 기억하기</b></string>
+
+    <!-- TextView Text String -->
+    <string name="textview_txt_remember_info_main">SmartParking 어플리케이션 사용을 위해 로그인을 해주세요</string>
+    <string name="txtview_txt_quest_info_main">계정이 없으신가요?</string>
+    <string name="txtview_txt_quest_sign_main"><u>회원가입하러가기</u></string>
+    <string name="txtview_txt_error1_login_main">ID 혹은 PASSWORD 가 입력되지 않았습니다.</string>
+    <string name="txtview_txt_error2_login_main">ID 혹은 PASSWORD 가 일치하지 않습니다.</string>
+    <string name="txtview_txt_error3_login_main">로그인 시도중 기타 문제가 발생하였습니다.</string>
+    <string name="txtview_txt_error4_login_main">서버와의 접속에 실패하였습니다. 인터넷 연결을 확인해 주세요.</string>
+    <string name="txtview_txt_success_login_main">로그인 성공</string>
+    <string name="txtview_txt_sensortest_stay">휴대폰을 똑바로\n세워주세요</string>
+    <string name="txtview_txt_sensortest_right">휴대폰을 우측으로\n기울여주세요</string>
+    <string name="txtview_txt_sensortest_left">휴대폰을 좌측으로\n기울여 주세요</string>
+    <string name="txtview_txt_sensrotest_end">센서테스트가\n완료되었습니다.</string>
+
+    <!-- SharedPreference Value -->
+    <string name="sp_login_value">SP_VALUE</string>
+    <string name="sp_init_value">SP_INIT_VALUE</string>
+
+    <string name="sp_id">ID</string>
+    <string name="sp_password">PASSWORD</string>
+    <string name="sp_driver">DRIVER</string>
+    <string name="sp_initlogin">INITLOGIN</string>
+    <string name="sp_remember">REMEMBER</string>
+
+    <!-- Server 관련 Data
+    <string name="IP">211.240.121.123 118.34.14.14</string>
+    -->
+    <string name="IP">211.240.121.123</string>
+    <string name="PORT">8080</string>
+    <string name="PHONEID">3333</string>
+
+    <!-- Sensor Operation -->
+    <string name="START">START</string>
+    <string name="STAY">STAY</string>
+    <string name="RIGHT">RIGHT</string>
+    <string name="LEFT">LEFT</string>
+    <string name="END">END</string>
+
+    <!-- Notification Service 관련 Data -->
+    <string name="N_ID">0001</string>
+    <string name="N_NAME">SMART_PARKING_NOTIFICATION</string>
+    <string name="N_DESCRIPTION">SmartParking_notification_service_start</string>
+
+    <!-- Beacon 관련 Resource -->
+    <string name="beacon_parser">m:2-3=0215,i:4-19,i:20-21,i:22-23,p:24-24,d:25-25</string>
+    <string name="beacon_id">20151005886456544159013500201901</string>
+    <string name="beacon_id_2">0x20151005886456544159013500201901</string>
+    <string name="beacon_id_3">20151005886456544137010800202001</string>
+    <string name="beacon_id_4">20151005886456543020013900202001</string>
+
+    <string name="actionbartitle"><font size="24"><b>주차 위치 표시</b></font></string>
+
+    <string name="toastMessageTrueOrFalse">TRUE</string>
+</resources>

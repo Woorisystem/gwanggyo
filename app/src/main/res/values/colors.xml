@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Android Studio 기본 제공 색상 -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 기본 배경색 -->
+    <color name="colorBackground">#F2F4F7</color>
+    <color name="colorBackgroundColorYellow">#ffb51f</color>
+
+    <!-- The Sharp 의 Default 색상 -->
+    <color name="colorTheSharpSkyBlue">#718cc7</color>
+    <color name="colorTheSharpDarkBlue">#033371</color>
+    <color name="colorTheSharpDarkGreyBlue">#2e3956</color>
+    <color name="colorTheSharpDarkNavyBlue">#00091F</color>
+
+    <!-- Error Color -->
+    <color name="colorError">#ff0000</color>
+    <color name="colorSuccess">#093f01</color>
+
+    <!-- Default Color -->
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorTheSharp">#728cc7</color>
+    <color name="common_bg">#DCDCDC</color>
+
+</resources>
