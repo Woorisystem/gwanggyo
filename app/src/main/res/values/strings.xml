@@ -8,11 +8,18 @@
     <string name="img_description_main">Main Image Description</string>
 
     <!-- Edit Text Hint String - EditTextBox 의 Hint 부분의 Value -->
-    <string name="edit_txt_hint_user_name_main"><b>사용자명</b></string>
+    <string name="edit_txt_hint_user_id"><b>아이디</b></string>
+    <string name="edit_txt_hint_user_name_main"><b>사용자명(한글만 입력 가능)</b></string>
+    <string name="edit_txt_hint_user_dong_main"><b>입주동(숫자만 입력 가능)</b></string>
+    <string name="edit_txt_hint_user_ho_main"><b>입주호수(숫자만 입력 가능)</b></string>
+    <string name="edit_txt_hint_user_id_main"><b>아이디(영문, 숫자 조합)</b></string>
     <string name="edit_txt_hint_user_password_main"><b>비밀번호</b></string>
+    <string name="edit_txt_hint_user_password"><b>숫자, 문자, 특수문자 중 2가지 포함(8~15자)</b></string>
+    <!--숫자, 문자, 특수문자 중 2가지 포함(8~15자)-->
 
     <!-- Button Text String - Button 의 Text Value -->
     <string name="button_txt_login_main">로그인</string>
+    <string name="button_txt_signup_main">회원가입</string>
     <string name="button_txt_sensortest_start">센서테스트 시작하기</string>
 
     <!-- Check Box Text String -->
@@ -45,8 +52,15 @@
     <!-- Server 관련 Data
     <string name="IP">211.240.121.123 118.34.14.14</string>
     -->
+    <!--
     <string name="IP">211.240.121.123</string>
     <string name="PORT">8080</string>
+    -->
+    <!--<string name="IP">192.168.0.19</string>
+    <string name="PORT">9082</string>-->
+    <string name="IP">211.52.72.27</string>
+    <string name="PORT">4000</string>
+
     <string name="PHONEID">3333</string>
 
     <!-- Sensor Operation -->
@@ -63,12 +77,32 @@
 
     <!-- Beacon 관련 Resource -->
     <string name="beacon_parser">m:2-3=0215,i:4-19,i:20-21,i:22-23,p:24-24,d:25-25</string>
-    <string name="beacon_id">20151005886456544159013500201901</string>
-    <string name="beacon_id_2">0x20151005886456544159013500201901</string>
-    <string name="beacon_id_3">20151005886456544137010800202001</string>
-    <string name="beacon_id_4">20151005886456543020013900202001</string>
+
+    <string name="beacon_id">20151005886456544111710200210801</string>
+
+    <!--  광교 비컨  -->
+    <!--20151005886456544111710200210801-->
+    <!--  반석 비컨  -->
+    <!--20151005886456543020013900202001-->
+    <!--  동탄 비컨  -->
+    <!--20151005886456544159013500201901-->
+
 
     <string name="actionbartitle"><font size="24"><b>주차 위치 표시</b></font></string>
 
     <string name="toastMessageTrueOrFalse">TRUE</string>
+
+    <string name="notification_parking_name">스마트 원패스</string>
+    <string name="notification_parking_title">[더샵 Smart Parking] 스마트 원패스</string>
+    <string name="notification_parking_permission_text">위치 액세스 권한 확인 요청</string>
+    <string name="notification_parking_permission_description">위치 액세스 권한이 부여되지 않아 서비스가 정상 실행되지 않을 수 있습니다.\n먼저 위치 액세스 권한을 \"항상 허용\"으로 부여하여 주시고[원패스 스마트 앱]을 다시 실행해 주세요</string>
+
+    <string name="notification_parking_text">스마트 원패스 앱이 실행중입니다.</string>
+    <string name="notification_parking_description">스마트 원패스 앱이 실행입니다.\n이 메시지는 앱을 항상 실행하도록 합니다.\n메시지를 삭제하지마세요!</string>
+
+    <string name="notification_bluetooth_off">블루투스 꺼짐</string>
+    <string name="notification_bluetooth_off_description">블루투스가 꺼져 있습니다.</string>
+    <string name="notification_location_permission_off">위치권한 꺼짐</string>
+    <string name="notification_location_permission_off_description">위치권한이 꺼져있습니다.</string>
+
 </resources>

@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/drawable-v24/ic_edit_background_round_rectangle.xml" value="0.3265" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.367" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/drawable/bg_rectangle.xml" value="0.3265" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/drawable/bg_rectangle_click.xml" value="0.3265" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/drawable/ic_edit_background_round_rectangle_yellow.xml" value="0.367" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3265" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/drawable/ic_listview_custom_underline.xml" value="0.367" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/drawable/image_button.xml" value="0.367" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/activity_location.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/activity_location_select.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/activity_notification_big.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/activity_notification_big_v2.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/activity_notification_small_v2.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/activity_regist_interestcar.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/activity_sensortest_end.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/activity_sensortest_left.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/activity_sensortest_right.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/activity_sensortest_stay.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/activity_signup.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/activity_splash.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/actvity_notification_small.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wr_ktw/Desktop/project/dongtan67/app/src/main/res/layout/customlistviewitem.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/drawable-v24/sensorclass_underline_background.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/drawable/bg_rectangle.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/drawable/bg_rectangle_click.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/drawable/ic_listview_custom_underline.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/layout/activity_location.xml" value="0.17603850050658562" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/layout/activity_location_select.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/layout/activity_notification_big.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/layout/activity_notification_big_v2.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/layout/activity_notification_small_v2.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/layout/activity_regist_interestcar.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/layout/activity_sensortest_end.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/layout/activity_sensortest_left.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/layout/activity_sensortest_right.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/layout/activity_sensortest_start.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/layout/activity_sensortest_stay.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/layout/activity_splash.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan67/app/src/main/res/layout/actvity_notification_small.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan_recent/dongtan67_0615/app/src/main/res/layout/activity_notification_big.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/wrdevelope/Desktop/dongtan_recent/dongtan67_0615/app/src/main/res/layout/actvity_notification_small.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

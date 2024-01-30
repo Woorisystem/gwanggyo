@@ -6,21 +6,46 @@
     android:background="@color/colorBackground"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/txt_appVer"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="right"
-        android:paddingRight="20dp"
-        android:text="1.2.6" />
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_downloadPDF"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/book"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:id="@+id/txt_appVer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:text="1.4.2" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_downloadPDF"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:text="매뉴얼 다운로드"
+        />
 
     <ImageView
         android:id="@+id/img_logo_login"
         android:layout_width="280dp"
-        android:layout_height="0dp"
+        android:layout_height="389dp"
         android:layout_gravity="center"
+        android:layout_marginTop="0dp"
         android:layout_marginBottom="20dp"
-        android:layout_marginTop="75dp"
         android:layout_weight="1"
         android:contentDescription="@string/img_description_main"
         android:scaleType="fitCenter"
@@ -33,7 +58,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="15dp"
         android:ems="10"
-        android:hint="@string/edit_txt_hint_user_name_main"
+        android:hint="@string/edit_txt_hint_user_id"
         android:inputType="textPersonName"
         android:paddingLeft="15dp"
         android:textColor="@color/colorTheSharpDarkNavyBlue"
@@ -54,15 +79,32 @@
         android:textSize="15dp"
         android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/btn_login"
-        android:layout_width="280dp"
-        android:layout_height="48dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        android:background="@color/colorTheSharpDarkGreyBlue"
-        android:text="@string/button_txt_login_main"
-        android:textColor="@color/colorBackground" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="125dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorTheSharpDarkGreyBlue"
+            android:text="@string/button_txt_login_main"
+            android:textColor="@color/colorBackground" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="125dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/colorTheSharpDarkGreyBlue"
+            android:text="@string/button_txt_signup_main"
+            android:textColor="@color/colorBackground" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="280dp"
@@ -86,17 +128,6 @@
             android:textSize="10dp"
             android:textStyle="bold" />
 
-        <CheckBox
-            android:id="@+id/chk_Open_Door"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:buttonTint="@color/colorTheSharpDarkGreyBlue"
-            android:checked="false"
-            android:text="주차 서비스 사용하기"
-            android:textColor="@color/colorTheSharpDarkGreyBlue"
-            android:textSize="10dp"
-            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -105,22 +136,12 @@
         android:layout_width="280dp"
         android:layout_height="20dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="25dp"
         android:gravity="center_vertical"
         android:text="@string/textview_txt_remember_info_main"
         android:textSize="10dp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="280dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        android:gravity="center_vertical"
-        android:text="운전자가 아니신경우 문열림 기능만 사용하기 체크박스를 체크하여 주십시오"
-        android:textColor="@color/colorError"
-        android:textSize="10dp"
-        android:textStyle="bold" />
+
 
 </LinearLayout>

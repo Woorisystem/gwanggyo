@@ -126,7 +126,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_weight="1"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/p1" />
+                 />
 
             <ImageView
                 android:id="@+id/img_location_logo"
@@ -170,7 +170,7 @@
                     android:paddingLeft="25dp"
                     android:text="B1"
                     android:textColor="@color/colorBackgroundColorYellow"
-                    android:textSize="50dp"
+                    android:textSize="30dp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -201,7 +201,7 @@
                     android:paddingRight="25dp"
                     android:text="0 - 0"
                     android:textColor="@color/colorBackgroundColorYellow"
-                    android:textSize="50dp" />
+                    android:textSize="30dp" />
             </LinearLayout>
         </LinearLayout>
 

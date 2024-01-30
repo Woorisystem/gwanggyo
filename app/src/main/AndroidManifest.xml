@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="smartparking.poscoict.psj.poscoict_project">
+    package="net.woorisys.pms.jk">
 
     <!-- Bluetooth 관련 Permission -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <!-- Internet 관련 Permission -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
@@ -29,9 +34,9 @@
 
     <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
 
-    <!-- Background Service 구현을 하기 위한 Permission -->
+    <!-- foreground Service 구현을 하기 위한 Permission -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
 
     <application
         android:allowBackup="false"
@@ -44,15 +49,16 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true">
         <service
-            android:name=".SJ_Service.BeaconService"
+            android:name="net.woorisys.pms.jk.app.SJ_Service.BeaconService"
             android:enabled="true"
             android:exported="true"></service>
 
         <activity
-            android:name=".SJ_Activity.SplashActivity"
+            android:name="net.woorisys.pms.jk.app.SJ_Activity.SplashActivity"
             android:clearTaskOnLaunch="true"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -60,7 +66,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SJ_Activity.LocationActivity"
+            android:name="net.woorisys.pms.jk.app.SJ_Activity.LocationActivity"
             android:clearTaskOnLaunch="true"
             android:excludeFromRecents="true"
             android:hardwareAccelerated="false"
@@ -69,16 +75,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
-            android:name=".SJ_Activity.LocationActivity_Select"
-            android:clearTaskOnLaunch="true"
-            android:excludeFromRecents="true"
-            android:hardwareAccelerated="false"
-            android:launchMode="singleTask"
-            android:noHistory="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".SJ_Activity.RegistCarDialog"
+            android:name="net.woorisys.pms.jk.app.SJ_Activity.RegistCarDialog"
             android:clearTaskOnLaunch="true"
             android:configChanges="orientation"
             android:excludeFromRecents="true"
@@ -88,24 +85,30 @@
             android:theme="@style/Theme.Transparent"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".SJ_Activity.LoginActivity"
+            android:name="net.woorisys.pms.jk.app.SJ_Activity.LoginActivity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="net.woorisys.pms.jk.app.SJ_Activity.SignupActivity"
             android:clearTaskOnLaunch="true"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <receiver
-            android:name=".SJ_BroadCast.BroadCastManager"
+            android:name="net.woorisys.pms.jk.app.SJ_BroadCast.BroadCastManager"
             android:clearTaskOnLaunch="true"
             android:enabled="true"
             android:exported="true"
             android:launchMode="singleTask" />
-        <receiver android:name=".SJ_BroadCast.AppNetWork">
+        <receiver android:name="net.woorisys.pms.jk.app.SJ_BroadCast.AppNetWork"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
         <receiver
-            android:name=".SJ_BroadCast.ParingStateCheck"
+            android:name="net.woorisys.pms.jk.app.SJ_BroadCast.ParingStateCheck"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -117,25 +120,29 @@
         </receiver>
 
         <service
-            android:name=".SJ_Service.SensorService"
+            android:name="net.woorisys.pms.jk.app.SJ_Service.SensorService"
             android:enabled="true"
             android:exported="true" />
+<!--        <service-->
+<!--            android:name="net.woorisys.pms.jk.app.SJ_Service.BeaconService"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="false" />-->
         <service
-            android:name=".SJ_Service.BeaconService"
+            android:name="net.woorisys.pms.jk.app.SJ_Service.Beacon26Service"
             android:enabled="true"
             android:exported="true" />
-        <service
-            android:name=".SJ_Service.Beacon26Service"
-            android:enabled="true"
-            android:exported="true" />
-        <service
-            android:name=".SJ_Service.Beacon26Service_NoDriver"
-            android:enabled="true"
-            android:exported="true" />
-        <service
-            android:name=".SJ_Service.BeaconService_NoDriver"
-            android:enabled="true"
-            android:exported="true" />
+
+        <receiver
+            android:name="org.altbeacon.beacon.startup.StartupBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>
